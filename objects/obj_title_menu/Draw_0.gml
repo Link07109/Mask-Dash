@@ -1,0 +1,2 @@
+draw_text_transformed_color(room_width / 3, room_height / 3, "MASK DASH", 6, 6, 0, c_aqua, c_aqua, c_ltgray, c_ltgray, 255)
+draw_button(room_width / 3, room_height / 2, room_width / 3 * 2, room_height / 7 * 4 + 32, true)
