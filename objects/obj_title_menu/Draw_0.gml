@@ -1,2 +1,11 @@
-draw_text_transformed_color(room_width / 3, room_height / 3, "MASK DASH", 6, 6, 0, c_aqua, c_aqua, c_ltgray, c_ltgray, 255)
-draw_button(room_width / 3, room_height / 2, room_width / 3 * 2, room_height / 7 * 4 + 32, true)
+// draw_set_font()
+draw_set_valign(fa_top)
+draw_set_halign(fa_center)
+
+for (var i = 0; i < array_length(options); i++) {
+	var col = c_white
+	if cursor_pos == i
+		col = c_yellow
+	
+	draw_text_color(x + op_border, y + op_border + op_space * i, options[i], col, col, col, col, 1)
+}
