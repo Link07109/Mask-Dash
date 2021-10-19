@@ -13,8 +13,8 @@
   "soundFile": "snd_popdance.mp3",
   "duration": 162.063721,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "music",
+    "path": "folders/Sounds/music.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_popdance",

@@ -1,9 +1,9 @@
 if vulnerable {
 	lives--
 	// play sound
-	// flash white
+	sprite_index = spr_player_hurt
 	vulnerable = false
-	alarm[0] = 60
+	alarm[0] = 90
 }
 
 if lives <= 0

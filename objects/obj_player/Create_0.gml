@@ -8,3 +8,5 @@ else if room == rm_2 {
 }
 
 gravity_direction = 270
+
+xsc = image_xscale
