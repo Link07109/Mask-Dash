@@ -17,7 +17,7 @@ if keyboard_check_pressed(vk_space)
 switch(cursor_pos) {
 	case 0: // Start
 		audio_stop_all()
-		room_goto_next()
+		room_goto(rm_1)
 		break
 		
 	case 1: // Settings
