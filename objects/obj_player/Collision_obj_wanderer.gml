@@ -1,9 +1,10 @@
 if vulnerable {
 	lives--
 	// play sound
-	sprite_index = spr_player_hurt
-	vulnerable = false
+	// knockback
+	sprite_index = spr_player_hurt // TODO: fix this somehow
 	alarm[0] = 90
+	vulnerable = false
 }
 
 if lives <= 0

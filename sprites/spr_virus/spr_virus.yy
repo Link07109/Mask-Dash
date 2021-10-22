@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 900,
-  "height": 900,
+  "width": 1024,
+  "height": 1024,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,24 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"86942b9e-06b3-4131-9587-57691e6dfd63","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86942b9e-06b3-4131-9587-57691e6dfd63","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":{"name":"fb5a06da-a856-4077-9c95-f75e5ce76311","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"86942b9e-06b3-4131-9587-57691e6dfd63","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f204bad-3481-4c44-8ec8-e8ce6c059810","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f204bad-3481-4c44-8ec8-e8ce6c059810","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":{"name":"18e4a92d-5f70-4a32-bad5-b8b253e70346","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"0f204bad-3481-4c44-8ec8-e8ce6c059810","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd7f1d82-76dc-45ab-b49b-c435d45264c4","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd7f1d82-76dc-45ab-b49b-c435d45264c4","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":{"name":"18e4a92d-5f70-4a32-bad5-b8b253e70346","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"cd7f1d82-76dc-45ab-b49b-c435d45264c4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bf26fa2d-47bf-4f60-9804-2e61a872cfd0","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bf26fa2d-47bf-4f60-9804-2e61a872cfd0","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":{"name":"18e4a92d-5f70-4a32-bad5-b8b253e70346","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"bf26fa2d-47bf-4f60-9804-2e61a872cfd0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bffe4516-2e81-47d8-a283-cabd5d2ea794","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bffe4516-2e81-47d8-a283-cabd5d2ea794","path":"sprites/spr_virus/spr_virus.yy",},"LayerId":{"name":"18e4a92d-5f70-4a32-bad5-b8b253e70346","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","name":"bffe4516-2e81-47d8-a283-cabd5d2ea794","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3bab986d-18ca-4343-b8b9-dab6288a441c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86942b9e-06b3-4131-9587-57691e6dfd63","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"12ff45e6-9b6c-4975-b637-77db7525329c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f204bad-3481-4c44-8ec8-e8ce6c059810","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"badac6fc-2b9b-4660-85cb-7d7d1b9a38e1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd7f1d82-76dc-45ab-b49b-c435d45264c4","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"635bbd54-133b-4bde-bed6-ae053a960d56","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bf26fa2d-47bf-4f60-9804-2e61a872cfd0","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a3cbc5be-0fd4-4a3e-b084-07c3012b0e13","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bffe4516-2e81-47d8-a283-cabd5d2ea794","path":"sprites/spr_virus/spr_virus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +66,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 450,
-    "yorigin": 450,
+    "xorigin": 512,
+    "yorigin": 512,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_virus","path":"sprites/spr_virus/spr_virus.yy",},
@@ -65,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fb5a06da-a856-4077-9c95-f75e5ce76311","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"18e4a92d-5f70-4a32-bad5-b8b253e70346","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
