@@ -25,16 +25,15 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"options","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"\"Producer: Antonio (thumbs up) Garcia\", \"Designer: Matthew (so what do you guys think) Ruckman\", \"Artist: Colleen (you guys want what?) Gundersen\", \"Programmer: Ivan (quick fingers) Valadez\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"color2","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"c_white","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"text_size","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"options","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"\"Credits\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "text",
     "path": "folders/Objects/text.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_credits",
+  "name": "obj_credits_txt",
   "tags": [],
   "resourceType": "GMObject",
 }
