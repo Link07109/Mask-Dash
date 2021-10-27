@@ -1,3 +1,17 @@
+if jumping {
+	if (vspeed >= 0)
+		sprite_index = spr_player_fall
+	else
+		sprite_index = spr_player_jump
+		
+} else {
+	if (keyboard_check(ord("W"))) {
+		if (instance_place(x, y + 5, obj_collision)) {
+			vspeed = jump_height
+		}
+	}
+}
+
 if (keyboard_check(ord("A")) && !instance_place(x - move_speed, y, obj_collision)) {
 	x -= move_speed
 	if !jumping
@@ -12,13 +26,6 @@ if (keyboard_check(ord("A")) && !instance_place(x - move_speed, y, obj_collision
 	sprite_index = spr_player
 }
 
-if (keyboard_check(ord("W"))) {
-	if (instance_place(x, y + 5, obj_collision)) {
-		jumping = true
-		// sprite_index = spr_player_jump
-		vspeed = jump_height
-	}
-}
 
 if (has_sanitizer) {
 	if (keyboard_check(vk_space)) {
@@ -31,6 +38,7 @@ if (instance_place(x, y + 5, obj_collision)) {
 	jumping = false
 } else {
 	gravity =  grav
+	jumping = true
 }
 
 vspeed = min(vspeed, 20)
