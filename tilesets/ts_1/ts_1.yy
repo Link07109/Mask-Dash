@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tiles",
-    "path": "sprites/spr_tiles/spr_tiles.yy",
+    "name": "spr_plat1",
+    "path": "sprites/spr_plat1/spr_plat1.yy",
   },
   "tileWidth": 256,
   "tileHeight": 256,
@@ -9,7 +9,7 @@
   "tileyoff": 64,
   "tilehsep": 0,
   "tilevsep": 50,
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
