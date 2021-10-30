@@ -25,7 +25,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"options","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"\"Restart\", \"Settings\", \"Quit\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"options","path":"objects/obj_title_menu/obj_title_menu.yy",},"objectId":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},"value":"\"Restart\", \"Quit\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "text",

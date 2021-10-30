@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_sanitizer_goop",
+    "path": "objects/obj_sanitizer_goop/obj_sanitizer_goop.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,18 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"p_speed","path":"objects/obj_sanitizer_goop/obj_sanitizer_goop.yy",},"objectId":{"name":"obj_sanitizer_goop","path":"objects/obj_sanitizer_goop/obj_sanitizer_goop.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "projectiles",
+    "path": "folders/Objects/projectiles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sneeze",
+  "name": "obj_sneeze_projectile",
   "tags": [],
   "resourceType": "GMObject",
 }

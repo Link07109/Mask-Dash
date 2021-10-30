@@ -1,2 +1,2 @@
 instance_destroy(other)
-move_speed = 16
+move_speed = 20

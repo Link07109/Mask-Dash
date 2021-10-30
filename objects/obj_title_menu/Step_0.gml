@@ -21,10 +21,7 @@ switch(cursor_pos) {
 		room_goto(rm_1)
 		break
 		
-	case 1: // Settings
-		break
-		
-	case 2: // Quit
+	case 1: // Quit
 		game_end()
 		break
 }
